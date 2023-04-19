@@ -137,7 +137,7 @@ body {
    <div class="top-menu">
       <h5>고객 센터</h5>
       <h5>관심 상품</h5>
-      <h5><a href="/user/login">로그인</a></h5>
+      <h5><a href="/test/login">로그인</a></h5>
    </div>
    <div class="home-category-wrap">
       <h1>

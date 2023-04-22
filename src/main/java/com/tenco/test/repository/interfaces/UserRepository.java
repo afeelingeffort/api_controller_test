@@ -10,4 +10,9 @@ public interface UserRepository {
 
 	public User select(UserFormDto userFormDto);
 	
+	public int insert(UserFormDto userFormDto);
+	
+	public int update(UserFormDto userFormDto);
+	
+	public int delete(String id);
 }

@@ -6,5 +6,21 @@
 		select * from user_tb
 		where id = #{id} and pw = #{pw}
 	</select>
+	
+	<insert id="insert">
+		insert into user_tb (id, pw, phone_number, address)
+		values(#{id}, #{pw}, #{phoneNumber}, #{address})
+	</insert>
+	
+	<update id="update">
+		update user_tb
+		set phone_number=#{phoneNumber}, address=#{address}
+		where id=#{id}
+	</update>
+	
+	<delete id="delete">
+		delete from user_tb
+		where id=#{id}
+	</delete>
 </mapper>
 

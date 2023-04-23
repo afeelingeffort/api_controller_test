@@ -1,4 +1,4 @@
-package com.tenco.test;
+package com.mj.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

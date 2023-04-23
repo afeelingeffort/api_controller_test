@@ -12,7 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<form class="form-inline" action="/test/join-proc" method="post">
+<form class="form-inline" action="/user/join-proc" method="post">
 		<label for="email" class="mr-sm-2">Email address:</label> 
 		<input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email" name="id"> 
 		<label for="pwd" class="mr-sm-2">Password:</label>

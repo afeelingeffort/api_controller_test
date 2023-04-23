@@ -1,4 +1,4 @@
-package com.tenco.test.dto;
+package com.mj.test.dto;
 
 import lombok.Data;
 

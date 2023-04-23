@@ -1,4 +1,4 @@
-package com.tenco.test.repository.model;
+package com.mj.test.repository.model;
 
 import lombok.Data;
 

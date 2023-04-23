@@ -14,7 +14,7 @@ String id = (String)session.getAttribute("id");
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-	<form class="form-inline" action="/test/modify-proc" method="post">
+	<form class="form-inline" action="/user/modify-proc" method="post">
 		<label for="phoneNumber" class="mr-sm-2">Phonenumber:</label>
 		<input type="tel" class="form-control mb-2 mr-sm-2" placeholder="Enter PhoneNumber" id="phoneNumber" name="phoneNumber">
 		<label for="address" class="mr-sm-2">Address:</label>
@@ -24,7 +24,7 @@ String id = (String)session.getAttribute("id");
 			</label>
 		</div>
 		<button type="submit" class="btn btn-primary mb-2">Submit</button>
-		<button type="button" class="btn btn-primary mb-2" onclick="location.href='/test/delete/<%=id%>'">Delete</button>
+		<button type="button" class="btn btn-primary mb-2" onclick="location.href='/user/delete/<%=id%>'">Delete</button>
 	</form>
 </body>
 </html>

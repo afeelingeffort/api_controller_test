@@ -1,4 +1,4 @@
-package com.tenco.test.controller;
+package com.mj.test.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
